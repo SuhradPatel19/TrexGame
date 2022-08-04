@@ -38,8 +38,8 @@ function preload() {
   obstacleImage4 = loadImage("obstacle4.png");
   obstacleImage5 = loadImage("obstacle5.png");
   obstacleImage6 = loadImage("obstacle6.png");
-  gameOverImage = loadImage("../Trex_Stage_0-main/assets/gameOver.png")
-  restartImage = loadImage("../Trex_Stage_0-main/assets/restart.png")
+  gameOverImage = loadImage("gameOver.png")
+  restartImage = loadImage("restart.png")
   trexCollided = loadAnimation("trex_collided.png")
   checkpoint = loadSound("checkpoint.mp3")
   die = loadSound("die.mp3")
